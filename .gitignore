@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+replay_pid*.log
+
+# Uploaded files
+uploads/
+
+# ChromaDB
+chroma_db/
+
+# Local/helper files
+get_image_pdf.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build/package files
+dist/
+build/
+*.egg-info/
